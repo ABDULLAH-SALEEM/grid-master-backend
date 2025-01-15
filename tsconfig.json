@@ -16,7 +16,6 @@
     "useUnknownInCatchVariables": false
   },
   "include": [
-    "./api/*.ts",
     "src/**/*.ts",
     "spec/**/*.ts",
     "build.ts"
