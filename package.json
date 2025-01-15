@@ -5,7 +5,7 @@
     "build": "npx ts-node build.ts",
     "lint": "npx eslint --ext .ts src/",
     "lint:tests": "npx eslint --ext .ts spec/",
-    "start": "npm run build && node -r module-alias/register ./dist --env=production",
+    "start": "node -r module-alias/register ./dist --env=production",
     "clean": "rimraf dist",
     "dev": "npm run clean && nodemon --watch src --ext ts --exec \"npm run build && node -r module-alias/register ./dist\""
   },
