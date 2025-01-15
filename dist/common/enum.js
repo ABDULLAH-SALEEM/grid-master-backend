@@ -1,0 +1,8 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.OTP_VERIFICATION_MODE = void 0;
+var OTP_VERIFICATION_MODE;
+(function (OTP_VERIFICATION_MODE) {
+    OTP_VERIFICATION_MODE["NEW_USER"] = "NEW_USER";
+    OTP_VERIFICATION_MODE["ACCOUNT_RECOVERY"] = "ACCOUNT_RECOVERY";
+})(OTP_VERIFICATION_MODE || (exports.OTP_VERIFICATION_MODE = OTP_VERIFICATION_MODE = {}));
