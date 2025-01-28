@@ -1,4 +1,4 @@
-Here's a detailed README file for your Node.js, Express, and TypeScript backend:
+This is a detailed README file for Node.js, Express, and TypeScript backend:
 
 
 ---
